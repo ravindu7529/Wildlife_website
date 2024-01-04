@@ -68,7 +68,7 @@ ul li a:hover{
 }
 
 body{
-    background-image: url('Images/beautiful-shot-lazy-leopard-resting-tree-with-blurred-background.jpg');
+    background-image: url('./Images/beautiful-shot-lazy-leopard-resting-tree-with-blurred-background.jpg');
     background-repeat: no-repeat, repeat;
     width: 100%;
     height: 100vh;
