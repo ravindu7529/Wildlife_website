@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin-left: 60px;
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 85px;
+    background-color:#556B2F;
+}
+
+
+ul{
+margin-left: 85px;
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 85px;
+    margin-left: 8px;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    color: #1e1e1e;
+    padding: 0 20px;
+    font-size: bold;
+}
+
+ul li a:hover{
+    color:white;
+    font-size: 16px;
+}
+
+
+.logo{
+    position: absolute;
+    width: 80px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+body{
+    background-color: white;
+    font-family: 'roboto';
+    
+}
+
+main{
+    margin: 0 80px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.introduction{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.national-parks{
+    margin-top: 20px;
+}
+.heading{
+    font-size:x-large;
+    position: relative;
+    margin-right: 400px;
+    top:100px;
+    text-decoration: none;
+    color: #000000;
+
+}
+.heading1{
+    font-size:35px;
+    position: relative;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+
+}
+.heading:hover{
+    color: #473DC8;
+}
+.intro_text{
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.78;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 550px;
+    top: 150px;
+
+}
+
+.intro_image{
+    width: 500px;
+    height:300px ;
+    position: relative;
+    left: 810px;
+    bottom: 40px;
+    border: 4px solid black;
+
+}
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    padding-top: 40px;
+    border: none;
+    background-color: #556B2F;
+  }
+
+footer_h5{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: white;
+}
+
+.intro_table{
+    font-family: "Roboto";
+    background-color: rgb(65, 62, 62);
+    text-align: center;
+    width: 1000px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid black;
+}
+
+.intro_tableHead{
+    background-color:gray;
+}
+.intro_tb{
+    background-color:lightgray;
+}
+
+.cons_intro_text{
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.78;
+    position: relative;
+    margin-left: ;
+    margin-right: auto;
+    top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.cons_heading1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cons_main{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+
+}
+
+.gallery{
+    width: auto;
+    display: flex;
+    gap: 20px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+
+
+}
+
+
+@media(max-width:768px){
+    .gallery{
+        flex-direction: column;
+    }
+}
+
+
+.maps{
+    margin-top: 75px;
+}
+.cons_map_h1{
+    color:rgb(31, 31, 31);
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: underline black;
+}
+
+.cons_map{
+    width: 100%;
+    height: 80vh;
+}
+
+/*leopard*/ 
+
+.leopards_heading{
+    font-style: 'Roboto';
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.leopards_subheading{
+    margin-top: 100px;
+    margin-bottom: 7cqmin;
+    font-size: x-large;
+}
+
+.leopard_venue{
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.78;
+    margin-top: 40px;
+    position: static;
+    margin-right: 550px;
+    top: 150px;
+    margin-bottom: 50px;
+}
+
+.leopard_h4{
+    font-size: larger;
+    margin-bottom: 40px;
+}
+.leopard_p3{
+    margin-bottom: 100px;
+
+}
+
+.leopard_pic1{
+    position: absolute;
+    left: 980px;
+    top: 450px;
+}
+
+.threats_to_leopard_heading{
+    margin-top: 200px;
+    margin-bottom: 7cqmin;
+    font-size: x-large;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.threat_to_leopard{
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.78;
+    position: static;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+.threat_h4{
+    margin-bottom: 20px;
+    font-size: x-large;
+
+}
+
+.threat_p{
+    margin-bottom: 10px;
+}
+
+.threat_pic{
+    width: 750px;
+    margin-top: 20px;
+
+}
+
+
+
